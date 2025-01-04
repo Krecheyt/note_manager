@@ -1,0 +1,16 @@
+username = input('Введите имя пользователя: ')
+name_note = input('Название заметки: ')
+new_name_note = name_note.upper()
+head = [input('Заголовок: '), input('Заголовок: '), input('Заголовок: ')]
+head.sort()
+content = input('Опишите содержание заметки: ')
+start_date = input('Введите дату (дд.мм.гг.) начала действия заметки: ',)
+start_time = input('Введите время (чч-мм) начала действия заметки: ')
+end_date = input('Введите дату (дд.мм.гг.) окончания действия заметки: ')
+end_time = input('Введите время (чч-мм) окончания действия заметки: ')
+print('Пользователь:        ', username)
+print('Заметка:             ', new_name_note)
+print('Содержание заметки:  ', content)
+print('Начало действия:     ', start_date + '  ' + start_time)
+print('Окончание действия:  ', end_date + '  ' + end_time)
+
